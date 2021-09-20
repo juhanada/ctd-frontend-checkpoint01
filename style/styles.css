@@ -15,33 +15,33 @@ body {
 }
 
 header {
-    padding: 20px 0;
-    margin: 20px 0 ;
+    padding: 1.25rem 0;
+    margin: 1.25rem 0 ;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
 .title {
     font-family: 'Nunito Sans', sans-serif;
-    margin: 10px 0;
+    margin: 0.6rem 0;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .about {
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
 }
 
 .text {
     font-family: 'Kaisei Tokumin', serif;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .floresta {
@@ -90,23 +90,51 @@ ul {
 
 li {
     text-align: start;
-    line-height: 28px;
+    line-height: 1.75rem;
 }
 
 footer {
-    padding: 20px;
+    padding: 1.25rem;
     background-color: honeydew;
 }
 
 .links > a {
-    margin: 0 15px;
+    margin: 0 1rem;
 }
 
 .icon {
-    width: 50px;
+    width: 3rem;
     height: auto;
 }
 
 p + p {
-    margin: 10px 0;
+    margin: 0.6rem 0;
 }
+
+@media (max-width: 1280px) {
+    iframe {
+        height: 432px;
+        width: 768px;
+    }    
+    .title {
+        margin: 0.3rem 0;
+    }
+    header {
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    .about {
+        padding: 0.5rem 0.5rem 0.8rem;
+    }
+
+}
+
+@media (max-width: 770px) {
+    iframe {
+        height: 180px;
+        width: 320px;
+    }   
+
+}
+
